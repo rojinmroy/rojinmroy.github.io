@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Learning Rust in Termux"
+date: 2024-02-11
+---
+
 I've been looking to learn rust due to its memory safety features compared to C.
 Also Rust is used in many embedded platforms even though there isn't much commercial support for rust in embedded systems.[1]https://www.embedded.com/5-roadblocks-to-rust-adoption-in-embedded-systems/
 
