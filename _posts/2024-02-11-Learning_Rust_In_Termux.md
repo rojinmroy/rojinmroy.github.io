@@ -1,4 +1,3 @@
-
 ---
 title:  "Learning Rust in Termux"
 date: 2024-02-11
