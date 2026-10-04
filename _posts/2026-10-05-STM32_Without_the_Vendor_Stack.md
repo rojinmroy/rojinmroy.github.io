@@ -1,8 +1,11 @@
-# STM32 Without the Vendor Stack
+---
+title:  "STM32 Without the Vendor Stack"
+date: 2026-10-05
+---
 
 *An experiment in startup code, linker scripts, direct register access, and command-line tooling.*
 
-Project repository: stm32-baremetal
+Project repository: (<https://github.com/rojinmroy/STM32_bare>)
 
 ## Introduction
 
