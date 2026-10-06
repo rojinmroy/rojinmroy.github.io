@@ -46,7 +46,7 @@ There is no HAL involved here. The registers are accessed directly through their
 
 This is a small amount of code, but it also means that the application is responsible for knowing how the peripheral is configured and accessed.
 
-## But How Does the Processor Reach `main()`?
+## But How Does the Processor Reach main()?
 
 Writing the application was straightforward. The more interesting part was understanding how the processor gets there.
 
@@ -63,7 +63,7 @@ These are normally handled by the C runtime startup code. In this experiment, I 
 
 This was probably the most useful part of the exercise: understanding that main() is not the entry point of the firmware image.
 
-##The Linker Has a Role Too
+## The Linker Has a Role Too
 
 The startup code depends on knowing where the different sections of the program are located.
 
@@ -99,7 +99,7 @@ The ELF file is particularly useful because it contains debugging information al
 
 The entire workflow is command-line driven, without depending on a vendor IDE or project generator.
 
-##What I Took Away
+## What I Took Away
 
 Blinking an LED is hardly a challenging embedded application. But implementing the pieces normally hidden by a development framework was a useful exercise.
 
